@@ -1,0 +1,27 @@
+use jadrn051;
+
+drop table if exists racer;
+
+create table racer(
+    id int AUTO_INCREMENT PRIMARY KEY,    
+    name varchar(50) NOT NULL,
+    middleName varchar(50) ,
+    lastName varchar(50) NOT NULL,
+    address1 varchar(100) NOT NULL,
+    address2 varchar(100)  NULL,
+    city varchar(30) NOT NULL,
+    state char(40) NOT NULL,
+    zip Numeric(5) NOT NULL,
+    email varchar(50) NOT NULL,
+    mobileNumber Numeric(10) NOT NULL,
+    gender varchar(6)NOT NULL,
+    Filename varchar(50)NOT NULL,
+    Dob varchar(10)NOT NULL,
+    category varchar(20)NOT NULL,
+    experience varchar(20)NOT NULL,
+    medical varchar(50) NULL
+      ); 
+    
+   
+
+
